@@ -1,46 +1,32 @@
-# Getting Started with Create React App
+# Aplicativo de Lista de Contatos
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este projeto é uma aplicação web construída com React, Typescript e MaterialUI que permite aos usuários gerenciar uma lista de contatos.
 
-## Available Scripts
+## Funcionalidades
 
-In the project directory, you can run:
+- **Adicionar Contato**: Os usuários podem adicionar novos contatos fornecendo seu nome, número de telefone e um endereço de e-mail (este opcional).
+- **Editar Contato**: Contatos existentes podem ser editados para atualizar suas informações.
+- **Excluir Contato**: Contatos podem ser removidos da lista.
+- **Armazenamento Local**: Os contatos são armazenados localmente no armazenamento do navegador, permitindo persistência de dados entre sessões.
 
-### `npm start`
+## Tecnologias Utilizadas
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- **React**: Framework front-end para construção de interfaces de usuário.
+- **TypeScript**: Fornece segurança de tipos para componentes React e garante a integridade dos dados.
+- **Material-UI**: Biblioteca de componentes de UI para aplicações React, utilizada para estilização e layout.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Como Começar
 
-### `npm test`
+Para rodar este projeto localmente, siga estes passos:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Clone este repositório.
+2. Navegue até o diretório do projeto.
+3. Instale as dependências com `npm install`.
+4. Inicie o servidor de desenvolvimento com `npm start`.
+5. Abra [http://localhost:3000](http://localhost:3000) no navegador para visualizar o aplicativo.
 
-### `npm run build`
+## Como Usar
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+- **Adicionando um Contato**: Preencha os campos de nome e telefone no formulário e clique em "Adicionar".
+- **Editando um Contato**: Clique no ícone de edição ao lado de um contato para preencher o formulário para edição.
+- **Excluindo um Contato**: Clique no ícone de exclusão ao lado de um contato para removê-lo da lista.
